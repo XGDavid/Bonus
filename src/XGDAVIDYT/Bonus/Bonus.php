@@ -77,7 +77,7 @@ class Bonus extends PluginBase {
                     $this->bonus->set($name, ["Bonus" => 1]);
                     $this->bonus->save();
                 }elseif($this->bonus->get($name)["Bonus"] == 1){
-                    $sender->sendMessage("§7[§bXGT§7]" . $folosit);
+                    $sender->sendMessage("§7[§bXGT§7] " . $folosit);
                 }
               }
               return true;
