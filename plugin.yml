@@ -1,0 +1,9 @@
+name: Bonus
+main: XGDAVIDYT\Bonus\Bonus
+version: 1.0.0
+api: 3.0.0
+author: XGDAVIDYT
+website: tcg-xgt.tk
+commands:
+  bonus:
+    description: First Bonus!
